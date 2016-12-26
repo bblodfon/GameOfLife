@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="gameOfLife.js"></script>
+	</head>
+	<body onload="generateGameGrid()">
+		<div class="generalContainer">
+			<div class="gridContainer">
+			</div>
+			<div class="userActionDiv">
+				<ul>
+					<li>Number of Generations: <b id="generations">0</b></li>
+					<li>Number of alive cells in the grid: <b id="globalALiveCells">0</b></li>
+					<li>Number of live cells: <input type="number" id="liveCells" value="2000">
+						<button class="button generateButton" onclick="generateLiveCells()">Generate live Cells</button>
+					</li>
+					<li><button class="button clearButton" onclick="clearGrid()">Clear Grid</button></li>
+					<li><button class="button startButton" onclick="startSimulation()">Start Simulation</button></li>
+					<li><button class="button stopButton" onclick="stopSimulation()">Stop Simulation</button></li>
+				</ul>
+				<ul id="Messages"> 
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
+	
+	

@@ -1,0 +1,61 @@
+.generalContainer {
+	width: 1365px;
+}
+
+.gridContainer {
+	float: left;
+	width: 702px;	
+	margin: 5px;
+}
+
+.userActionDiv {
+	float: right;
+	margin-right: 85px;
+}
+
+table {
+	border: 2px solid black;
+	border-collapse: collapse;
+	table-layout:fixed;
+}
+
+tr {
+	height: 6px;
+}
+
+td {
+	width: 6px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+}
+
+ul li {
+    margin-top: 20px;
+}
+
+#genNum {
+	font-size: 135%;
+}
+
+#Messages {
+    list-style-type: none;
+	font-size: 120%;
+}
+
+input[type=number] {
+    width: 25%;
+    padding: 7px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button {
+	width: 170px;
+	font-size: 15px;
+	cursor: pointer;
+	height: 34px;
+	line-height: 28px;
+	border-radius: 10px;
+}
